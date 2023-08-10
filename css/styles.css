@@ -1,0 +1,155 @@
+:root { /*задаємо можливість внесення змінних, зазначаємо через "--"*/
+--color-primary: #212121;   /*"color-primary" - основний колір*/
+--color-brand: #2196F3;     /*"color-brand" - колір бренду*/
+--color-secondary: #757575;     /*"color-secondary" - колір другорядний*/
+--color-white: #ffffff;     /*"color-swhite" - колір білий*/
+--color-background-dark: #2f303a;    /*"background-dark" - колір фону*/
+--color-logo: #000000;     /*"color-logo" - колір тексту логотипу*/
+}
+body {
+   color: var(--color-primary);
+   font-family: 'Roboto', sans-serif;   
+   font-weight: 400;
+   font-size: 14px;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+/*HEADER*/
+.header-logo {
+    color:var(--color-logo);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+}
+.header-logo .accent {
+    color: var(--color-brand);
+}  
+.header-link {
+    color: var(--color-primary);  
+    font-weight: 500;
+    line-height: 1.17;
+}
+.header-link:hover {
+    color: var(--color-brand); 
+}
+.portfolio-links {
+    color: var(--color-primary);  
+    font-weight: 500;
+    line-height: 1.17;
+}
+.portfolio-links:hover {
+    color: var(--color-brand); 
+}
+.contacts-link {
+    color: var(--color-secondary);
+    font-weight: 500;
+    line-height: 1.17;
+}
+.contacts-link:hover {
+    color: var(--color-brand);   
+}
+/*MAIN section*/
+.main-section {
+    background-color: var(--color-background-dark);
+}
+
+.main-title {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+}
+.button {
+    color: var(--color-white);
+    background-color: var(--color-brand);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+}
+.button-portfolio {
+    color: var(--color-primary);
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+}
+.button-portfolio:hover {
+    background-color: var(--color-brand)   
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/*PEREVAGY section*/
+.perevagy-title {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.perevagy-text {
+    color: var(--color-secondary);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/*TEAM section*/
+.person-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;   
+}
+.person-job {
+    color: var(--color-secondary);
+    font-size: 16px;
+    line-height: 1.17;  
+}
+/*PORTFOLIO main*/
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;    
+}
+.portfolio-text {
+    color: var(--color-secondary);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.875;   
+}
+/*FOOTER*/
+.footer {
+    background-color: var(--color-background-dark);
+}
+.footer-logo {
+    color: var(--color-white);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+}
+.footer-logo .accent {
+    color: var(--color-brand);
+}
+.adress-link {
+color: var(--color-white);
+font-style: normal;
+font-weight: 500;
+line-height: 1.17;
+}
+.footer-link {
+    color: #ffffff99;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.17;
+}
